@@ -1,0 +1,55 @@
+.about {
+  float: left;
+  width: 880px;
+  margin-top: -25px;;
+}
+.about__img {
+  width: 880px;
+  height: 350px;
+  background: url('../../img/decor/about.jpg')
+}
+.about__title {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  top: 45%;
+  left: 10%;
+}
+.about__text {
+  width: 700px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.about__text li {
+  list-style-image:url('../../img/decor/list-bullet.png');
+  margin-left: 30px;
+}
+.discount {
+  width: 690px;
+  height: 110px;
+  background-color: #27273e;
+  padding: 20px 20px;
+}
+.discount p {
+  color: #fff;
+  font-size: 18px;
+  margin: -4px;
+}
+.discount p span {
+  font-weight: bold;
+  color: #ec1e79;
+}
+.partners .title {
+  text-transform: uppercase;
+}
+.partners__item {
+  display: inline-block;
+  width: 180px;
+  margin-right: 90px;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+.partners {
+  margin: 50px 0;
+}

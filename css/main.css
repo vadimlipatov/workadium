@@ -1,0 +1,10 @@
+/*Layout*/
+@import url('layout/normalize.css');
+@import url('layout/fonts.css');
+@import url('layout/base.css');
+
+/*Pages*/
+@import url('pages/index.css');
+@import url('pages/rates.css');
+@import url('pages/about.css');
+@import url('pages/review.css');

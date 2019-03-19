@@ -1,0 +1,63 @@
+.prises__item {
+  width: 250px;
+  float: left;
+  margin-right: 55px;
+  margin-bottom: 50px;
+}
+.prises__item:nth-child(3n) {
+  margin-right: 0px;
+}
+.prises {
+  margin-top: 50px;
+}
+.item__img {
+  width: 250px;
+  height: 150px;
+  background-image: url(../../img/content/team/1.jpg);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.item__img:after{
+  content: "";
+  display: block;
+  width: 250px;
+  height: 150px;
+  background-color: #27273e;
+  position: relative;
+  top: -150px;
+  opacity: 0.8;
+}
+.item__img-two {
+  background-image: url(../../img/content/team/2.jpg);
+}
+.item__img-three {
+  background-image: url(../../img/content/team/3.jpg);
+}
+.item__img-four {
+  background-image: url(../../img/content/team/4.jpg);
+}
+.item__img-five {
+  background-image: url(../../img/content/team/5.jpg);
+}
+.item__img-six {
+  background-image: url(../../img/content/team/6.jpg);
+}
+.item__title {
+  color: #5dd1f8;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150px;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+.item__text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+}
+.item__text span {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 10px;;
+}

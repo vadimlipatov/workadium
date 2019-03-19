@@ -1,0 +1,121 @@
+/*Components*/
+@import url('../components/header.css');
+@import url('../components/sidebar.css');
+@import url('../components/main-content.css');
+@import url('../components/form.css');
+@import url('../components/footer.css');
+
+.breadcrumbs {
+  margin-top: 40px;
+  font-size: 0;
+}
+.breadcrumbs__item {
+  display: inline-block;
+  font-size: 14px;
+  font-style: italic;
+  color: #221f1f;
+  white-space: nowrap;
+}
+.breadcrumbs__item--active {
+  color: red;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+.breadcrumbs__item--active:after {
+  display: inline-block;
+  content: "\a0 / ";
+  color: red;
+}
+.title {
+  font-size: 49px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.review__text {
+  font-size: 18px;
+}
+.review__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.review__data {
+  font-size: 14px;
+  color: #656464;
+}
+.review__content {
+  width: 700px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.review__img {
+  margin-right: 20px;
+  float: left;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.review__wrap {
+  border-bottom: 2px solid #f5f5f5;
+  padding-top: 30px;
+}
+.review__wrap-no-border {
+  border-bottom: none;
+}
+.review__img-one {
+  background: url('../../img/content/reviews/1.jpg');
+}
+.review__img-two {
+  background: url('../../img/content/reviews/2.jpg');
+}
+.review__img-three {
+  background: url('../../img/content/reviews/3.jpg');
+}
+.review__img-four {
+  background: url('../../img/content/reviews/4.jpg');
+}
+.pagination__text, .pagination__count {
+  float: left;
+}
+.pagination__link {
+  display: inline-block;
+}
+.pagination__text {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #656464;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.pagination__count-item {
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  border-radius: 5px;
+  line-height: 25px;
+  white-space: nowrap;
+  text-align: center;
+  
+}
+.pagination__count-item-grey {
+  color: #656464;
+  font-weight: normal;
+}
+.pagination__count-item:hover, .pagination__count-item-active {
+  background-color: #27273e;
+  color: #ec1e79;
+}
+.pagination__wrap {
+  width: 600px;
+  margin: 0 auto;
+}
+.pagination {
+  margin-top: 10px;
+}
+.pagination__count-item-last {
+  font-weight: normal;
+}
+

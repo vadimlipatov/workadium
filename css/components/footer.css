@@ -1,0 +1,76 @@
+.footer__text,  .logo__wrap, .socials {
+  float: left;
+}
+.footer__text, .socials {
+  width: 300px;
+}
+.footer__text {
+  color: #fff;
+}
+.footer__text a{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#footer {
+  background-color: #27273e; 
+  margin-top: -80px;
+}
+.logo__wrap {
+  width: 460px;
+  height: 108px;
+  text-align: center;
+  padding-top: 25px;
+}
+.socials__title {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.socials__icons-item {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.socials__icons-vk, 
+.socials__icons-fb,
+.socials__icons-goo,
+.socials__icons-twit,
+.socials__icons-mail {
+  background: url('../../img/icons/socials/socials-sprite.png') no-repeat;
+  cursor: pointer;
+}
+.socials__icons-vk:hover {
+  background-position: 0 -100px;
+}
+.socials__icons-fb {
+  background-position: -100px 0;
+}
+.socials__icons-fb:hover {
+  background-position: -100px -100px;
+}
+.socials__icons-goo {
+  background-position: -200px 0;
+}
+.socials__icons-goo:hover {
+  background-position: -200px -100px;
+}
+.socials__icons-twit {
+  background-position: -300px 0;
+}
+.socials__icons-twit:hover {
+  background-position: -300px -100px;
+}
+.socials__icons-mail {
+  background-position: -400px 0;
+}
+.socials__icons-mail:hover {
+  background-position: -400px -100px;
+}
+.socials__wrap {
+  padding-top: 20px;
+}
+
